@@ -1,0 +1,29 @@
+{
+  "name": "@ts-templates/node20-esm",
+  "version": "0.1.0",
+  "description": "Template for TypeScript project using Node.js v20 (ESM)",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "tsc --project tsconfig.build.json",
+    "clean": "rimraf dist",
+    "lint": "eslint --ignore-path .gitignore '**/*.{js,cjs,mjs,ts,cts,mts}'",
+    "prebuild": "npm run clean",
+    "start": "tsx src/main.ts",
+    "test": "glob -c 'node --test --import tsx/esm' 'src/**/*.test.ts'"
+  },
+  "engines": {
+    "node": "20.12.2"
+  },
+  "devDependencies": {
+    "@eslint-recommended/eslint-config-typescript": "49.0.1",
+    "@tsconfig/node20": "20.1.4",
+    "@types/node": "20.12.12",
+    "eslint": "8.57.0",
+    "glob": "10.3.15",
+    "rimraf": "5.0.7",
+    "tsx": "4.11.0",
+    "typescript": "5.4.5"
+  },
+  "license": "MIT"
+}

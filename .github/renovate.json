@@ -1,0 +1,16 @@
+{
+  "extends": [
+    "github>ts-templates/renovate-config"
+  ],
+  "labels": ["renovate"],
+  "packageRules": [
+    {
+      "matchPackageNames": ["@types/node"],
+      "allowedVersions": "<21"
+    },
+    {
+      "matchPackageNames": ["node"],
+      "allowedVersions": "<21"
+    }
+  ]
+}
