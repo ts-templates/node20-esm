@@ -20,7 +20,7 @@
     "@tsconfig/node20": "20.1.4",
     "@types/node": "20.12.14",
     "eslint": "8.57.0",
-    "glob": "10.4.1",
+    "glob": "10.4.5",
     "rimraf": "6.0.1",
     "tsx": "4.16.2",
     "typescript": "5.5.3"
