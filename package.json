@@ -13,7 +13,7 @@
     "test": "glob -c 'node --test --import tsx/esm' 'src/**/*.test.ts'"
   },
   "engines": {
-    "node": "20.12.2"
+    "node": "20.18.3"
   },
   "devDependencies": {
     "@eslint-recommended/eslint-config-typescript": "50.1.0",
