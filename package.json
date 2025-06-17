@@ -17,7 +17,7 @@
   },
   "devDependencies": {
     "@eslint-recommended/eslint-config-typescript": "50.1.0",
-    "@tsconfig/node20": "20.1.5",
+    "@tsconfig/node20": "20.1.6",
     "@tsconfig/strictest": "2.0.5",
     "@types/node": "20.12.14",
     "eslint": "8.57.1",
