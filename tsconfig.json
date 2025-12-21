@@ -1,6 +1,8 @@
 {
   "extends": [
-    "@tsconfig/strictest/tsconfig.json",
-    "@tsconfig/node20/tsconfig.json"
+    // https://github.com/tsconfig/bases/blob/main/bases/strictest.json
+    "@tsconfig/bases/strictest",
+    // https://github.com/tsconfig/bases/blob/main/bases/node20.json
+    "@tsconfig/bases/node20"
   ]
 }
