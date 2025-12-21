@@ -5,8 +5,8 @@ import {
 } from 'node:test'
 import { greet } from './greet.js'
 
-await describe('greet', async () => {
-  await it('returns greeting', () => {
+describe('greet', async () => {
+  it('returns greeting', () => {
     const actual = greet('World')
     assert.strictEqual(actual, 'Hello World')
   })
