@@ -1,13 +1,9 @@
-import assert from 'node:assert'
-import {
-  describe,
-  it
-} from 'node:test'
+import { describe, it, type TestContext } from 'node:test'
 import { greet } from './greet.js'
 
-describe('greet', async () => {
-  it('returns greeting', () => {
+describe('greet', () => {
+  it('returns greeting', (t: TestContext) => {
     const actual = greet('World')
-    assert.strictEqual(actual, 'Hello World')
+    t.assert.strictEqual(actual, 'Hello World')
   })
 })
