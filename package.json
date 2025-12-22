@@ -14,7 +14,7 @@
   "devDependencies": {
     "@tsconfig/bases": "1.0.16",
     "@types/node": "20.19.26",
-    "glob": "12.0.0",
+    "glob": "13.0.0",
     "tsx": "4.21.0",
     "typescript": "5.9.3"
   },
