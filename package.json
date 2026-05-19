@@ -15,7 +15,7 @@
     "@tsconfig/bases": "1.0.23",
     "@types/node": "20.19.26",
     "glob": "12.0.0",
-    "tsx": "4.21.0",
+    "tsx": "4.22.3",
     "typescript": "6.0.2"
   },
   "license": "MIT"
